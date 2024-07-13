@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
 };
 
 export const headers: HeadersFunction = () => ({
-  'Cache-Control': 's-maxage=29, stale-while-revalidate=59',
+  'Cache-Control': 's-maxage=9, stale-while-revalidate=29',
 });
 
 function getCurrentTime() {
